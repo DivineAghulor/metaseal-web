@@ -64,7 +64,7 @@ def verify_signature(caption: str, signature_b64: str, public_pem: str) -> bool:
         public_key.verify(
             signature_bytes,
             message,
-            ecdsa.ECDSA(hashes.SHA256())
+            ec.ECDSA(hashes.SHA256())
         )
         return True
         
