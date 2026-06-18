@@ -1,0 +1,22 @@
+.uploader {
+  border: 1px dashed var(--secondary);
+  padding: 18px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.placeholder {
+  color: var(--muted);
+}
+.input {
+  display: none;
+}
+.button {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  padding: 8px 10px;
+  border-radius: 6px;
+}

@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  z-index: 40;
+}
+.logo {
+  font-weight: 700;
+  color: var(--text);
+}
+.nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.user {
+  color: var(--muted);
+}
+.signout {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  padding: 6px 10px;
+  border-radius: 6px;
+}

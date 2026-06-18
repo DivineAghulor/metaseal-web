@@ -1,0 +1,25 @@
+.root {
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-weight: 600;
+  font-family: var(--sans);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.solid {
+  background: var(--primary);
+  color: white;
+  border: none;
+  box-shadow: var(--shadow);
+}
+.outline {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

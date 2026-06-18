@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+.label {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 600;
+}
+.input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--secondary);
+  background: #ffffff;
+  color: var(--text);
+  outline: none;
+}
+.input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(39,174,96,0.06);
+}

@@ -1,0 +1,12 @@
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid var(--secondary);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+.center {
+  max-width: 640px;
+  margin: 24px auto;
+}
